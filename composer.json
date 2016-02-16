@@ -1,5 +1,5 @@
 {
-    "name": "logicalgrape/paypal-ipn-laravel",
+    "name": "bodeezy/paypal-ipn-laravel",
     "description": "A PayPal IPN client for Laravel.",
     "keywords": ["paypal", "ipn", "laravel"],
     "license": "MIT",
@@ -8,6 +8,7 @@
             "name": "Chris Roemmich",
             "email": "chris@logicalgrape.com"
         }
+        
     ],
     "require": {
         "php": ">=5.3.0",
