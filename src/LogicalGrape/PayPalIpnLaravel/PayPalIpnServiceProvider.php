@@ -1,7 +1,7 @@
-<?php namespace LogicalGrape\PayPalIpnLaravel;
+<?php namespace bodeezy\PayPalIpnLaravel;
 
 use Illuminate\Support\ServiceProvider;
-use LogicalGrape\PayPalIpnLaravel\PayPalIpn;
+use bodeezy\PayPalIpnLaravel\PayPalIpn;
 
 class PayPalIpnServiceProvider extends ServiceProvider {
 
@@ -19,7 +19,7 @@ class PayPalIpnServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('logicalgrape/paypal-ipn-laravel');
+		$this->package('bodeezy/paypal-ipn-laravel');
 	}
 
 	/**

@@ -1,12 +1,12 @@
-<?php namespace LogicalGrape\PayPalIpnLaravel;
+<?php namespace bodeezy\PayPalIpnLaravel;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Log;
-use LogicalGrape\PayPalIpnLaravel\Exception\InvalidIpnException;
-use LogicalGrape\PayPalIpnLaravel\Models\IpnOrder;
-use LogicalGrape\PayPalIpnLaravel\Models\IpnOrderItem;
-use LogicalGrape\PayPalIpnLaravel\Models\IpnOrderItemOption;
+use bodeezy\PayPalIpnLaravel\Exception\InvalidIpnException;
+use bodeezy\PayPalIpnLaravel\Models\IpnOrder;
+use bodeezy\PayPalIpnLaravel\Models\IpnOrderItem;
+use bodeezy\PayPalIpnLaravel\Models\IpnOrderItemOption;
 use PayPal\Ipn\Exception\UnexpectedResponseBodyException;
 use PayPal\Ipn\Exception\UnexpectedResponseStatusException;
 use PayPal\Ipn\Listener as PayPalListener;
